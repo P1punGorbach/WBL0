@@ -1,0 +1,17 @@
+{
+    "kafka": {
+        "brokers":[
+            "localhost:9092"
+        ],
+        "version": "2.1.0",
+        "group": "poluchatel",
+        "topics": "orders",
+        "assignor": "range",
+        "oldest": true,
+        "verbose": "false"
+    },
+    "pg":{
+        "URL": "postgres://wildberries:wildberries@localhost:5444/wildberries"
+    }
+
+}
